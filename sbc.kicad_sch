@@ -191,8 +191,14 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/1f456dd7-550c-476b-8e2f-4660c63b7cdf"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/30e4be02-7d29-4f60-825e-f76e63e47850"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
     (path "/607413c6-2bfd-476d-8323-587df958351b/108e7a36-927c-4867-84ec-b787e2a581b0"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/e014c021-e556-4e8b-a4b8-dafaccf3af71"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/7ffdb647-6e41-4a54-a89d-2ca05bb1a6ce"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
@@ -202,9 +208,6 @@
     )
     (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/072f9227-e5c2-4d54-bd7d-ba80a55b5c83"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/26ae5cd6-6ed2-41ae-8fd2-74a9c901192d"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/4d776ec3-2711-480d-8f16-eec255680ed1"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
@@ -362,9 +365,6 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/175ca79a-383d-4610-8919-b1cdb7625a5c"
       (reference "C35") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/15eeef25-0279-46ef-8350-da219056e281"
-      (reference "C36") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/aa8bbcd0-9b9e-404f-a9ce-2eea17fb714d"
       (reference "C37") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -440,11 +440,17 @@
     (path "/607413c6-2bfd-476d-8323-587df958351b/cc7726f7-3cae-410a-aa92-4393933441d8"
       (reference "J2") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/7526950d-16ce-4994-9628-b0de4701ae3a"
+      (reference "J3") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
+    )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/de5b97be-fc01-435f-9977-b60beb696697"
       (reference "J4") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/eff74b05-ce7f-4766-be87-7ba0d937967f"
       (reference "J5") (unit 1) (value "Conn_01x05") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/fc11983a-88c9-479e-872f-a2e6c50ed374"
+      (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/238fcd41-cf13-4f86-a7d5-904cdf2fe518"
       (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2512")
