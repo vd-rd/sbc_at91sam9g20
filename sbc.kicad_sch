@@ -315,7 +315,7 @@
       (reference "C14") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/745a7554-af4b-4dcc-9126-53f980302102"
-      (reference "C15") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/cbce3cf3-3b39-4ba8-89ba-7897cf3239d2"
       (reference "C16") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -557,6 +557,9 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/d3c5a618-c76c-4f7e-a509-73bfee0b43f9"
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/ca32ef26-6cb0-45da-bce6-05e72015839b"
+      (reference "U1") (unit 1) (value "AT25xxx") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
+    )
     (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/4ae72713-1567-4342-b0c1-42861bf9ae9e"
       (reference "U2") (unit 1) (value "MT48LC16M16A2P") (footprint "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm")
     )
@@ -565,6 +568,9 @@
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/ff8afb6a-e420-4fdd-b071-aeb52ebe0c85"
       (reference "U4") (unit 1) (value "MIC2800") (footprint "microchip:QFN-16_3x3mm_P0.5mm")
+    )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/d64b367a-7215-436a-82c8-aa0dd78bb463"
+      (reference "U5") (unit 1) (value "AT25xxx-MA") (footprint "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/6e3a0887-4307-4250-9787-828e80bd2b96"
       (reference "U100") (unit 1) (value "AT91SAM9G20") (footprint "microchip:AT91SAM9G10")
