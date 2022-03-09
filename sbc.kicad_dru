@@ -1,0 +1,13 @@
+(version 1)
+(rule "SDRAM-module1 fanout"
+   (constraint track_width (min 0.127mm) (opt 0.154mm))
+   (constraint clearance (min 0.1016mm) (opt 0.154mm))
+   (condition "A.insideCourtyard('U2')"))
+(rule "SDRAM-module2 fanout"
+   (constraint track_width (min 0.127mm) (opt 0.154mm))
+   (constraint clearance (min 0.1016mm) (opt 0.154mm))
+   (condition "A.insideCourtyard('U3')"))
+(rule "CPU fanout"
+   (constraint track_width (min 0.127mm) (opt 0.154mm))
+   (constraint clearance (min 0.1mm) (opt 0.154mm))
+   (condition "A.insideCourtyard('U100')"))
