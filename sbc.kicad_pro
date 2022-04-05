@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.45,
-          "width": 1.51
+          "drill": 0.65,
+          "height": 0.9,
+          "width": 0.9
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.154
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -105,7 +105,7 @@
         "max_error": 0.005,
         "min_clearance": 0.09999999999999999,
         "min_copper_edge_clearance": 0.39999999999999997,
-        "min_hole_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.39999999999999997,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -401,7 +401,7 @@
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.22,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -410,15 +410,6 @@
         "microvia_drill": 0.1,
         "name": "sdram",
         "nets": [
-          "/SDRAM/cas",
-          "/SDRAM/nbs1",
-          "/SDRAM/nbs3",
-          "/SDRAM/ras",
-          "/SDRAM/sda10",
-          "/SDRAM/sdck",
-          "/SDRAM/sdcke",
-          "/SDRAM/sdcs",
-          "/SDRAM/sdwe",
           "ad0",
           "ad1",
           "ad10",
