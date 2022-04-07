@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "SAM9G10 SBC")
+    (title "SAM9G20 SBC")
     (rev "0.1")
     (company "vd-rd")
   )
@@ -3397,7 +3397,7 @@
     (uuid 4ae72713-1567-4342-b0c1-42861bf9ae9e)
     (property "Reference" "U2" (id 0) (at 246.38 66.8994 0))
     (property "Value" "MT48LC16M16A2P" (id 1) (at 254 64.5945 0))
-    (property "Footprint" "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" (id 2) (at 242.57 137.16 0)
+    (property "Footprint" "jedec:TSOP-II-54_22.2x10.16mm_P0.8mm" (id 2) (at 242.57 137.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf" (id 3) (at 242.57 107.95 0)
@@ -3783,7 +3783,7 @@
     (uuid 9e4d9338-7b20-4eaf-9c16-4c17e3b0d704)
     (property "Reference" "U3" (id 0) (at 166.37 69.4394 0))
     (property "Value" "MT48LC16M16A2P" (id 1) (at 173.99 67.1345 0))
-    (property "Footprint" "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" (id 2) (at 160.02 139.7 0)
+    (property "Footprint" "jedec:TSOP-II-54_22.2x10.16mm_P0.8mm" (id 2) (at 160.02 139.7 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf" (id 3) (at 160.02 110.49 0)

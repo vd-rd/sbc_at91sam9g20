@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "SAM9G10 SBC")
+    (title "SAM9G20 SBC")
     (rev "0.1")
     (company "vd-rd")
   )
