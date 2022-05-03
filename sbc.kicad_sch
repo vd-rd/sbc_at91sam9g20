@@ -262,7 +262,7 @@
   )
 
   (symbol_instances
-    (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/9c1e0245-1b55-4593-8fbf-6173633e486f"
+    (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/d05e82f3-fdfa-4f34-ab96-ad08af3e33aa"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/c166f8fd-1b46-414d-bf97-e3e1a5a2bf4b"
@@ -709,11 +709,11 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/ca32ef26-6cb0-45da-bce6-05e72015839b"
       (reference "U1") (unit 1) (value "AT25xxx") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
-    (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/4ae72713-1567-4342-b0c1-42861bf9ae9e"
-      (reference "U2") (unit 1) (value "MT48LC16M16A2P") (footprint "jedec:TSOP-II-54_22.2x10.16mm_P0.8mm")
+    (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/c8ed295e-649f-4aa8-8a8e-bd690260ae60"
+      (reference "U2") (unit 1) (value "SDRAM-x16-BGA") (footprint "winbond:BGA-54_9x9_8.0x9.0mm")
     )
-    (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/9e4d9338-7b20-4eaf-9c16-4c17e3b0d704"
-      (reference "U3") (unit 1) (value "MT48LC16M16A2P") (footprint "jedec:TSOP-II-54_22.2x10.16mm_P0.8mm")
+    (path "/a4217064-b1a8-49a5-9086-5c3293a5a5a6/67a70205-f468-4da7-98dc-1341f524a316"
+      (reference "U3") (unit 1) (value "SDRAM-x16-BGA") (footprint "winbond:BGA-54_9x9_8.0x9.0mm")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/862a73f3-01b3-4896-9f12-5df6cda1a8d5"
       (reference "U4") (unit 1) (value "MCP16501") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias")
