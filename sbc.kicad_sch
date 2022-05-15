@@ -208,7 +208,7 @@
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 607413c6-2bfd-476d-8323-587df958351b)
-    (property "Sheet name" "SDCard" (id 0) (at 34.29 176.53 0)
+    (property "Sheet name" "Memory" (id 0) (at 34.29 176.53 0)
       (effects (font (size 6 6)) (justify left bottom))
     )
     (property "Sheet file" "sdcard.kicad_sch" (id 1) (at 72.39 175.26 0)
@@ -720,6 +720,9 @@
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/d64b367a-7215-436a-82c8-aa0dd78bb463"
       (reference "U5") (unit 1) (value "AT25xxx-MA") (footprint "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm")
+    )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/21a937a0-01ad-417f-a762-e609e3833842"
+      (reference "U6") (unit 1) (value "nand-flash-tsop48") (footprint "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/6e3a0887-4307-4250-9787-828e80bd2b96"
       (reference "U100") (unit 1) (value "AT91SAM9G20") (footprint "microchip:AT91SAM9G10")

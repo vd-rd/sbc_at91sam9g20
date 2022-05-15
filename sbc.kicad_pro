@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 0.9,
-          "width": 0.9
+          "drill": 0.55,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -479,8 +479,6 @@
         "microvia_drill": 0.1,
         "name": "usb-diff",
         "nets": [
-          "/SDCard/usb-a+",
-          "/SDCard/usb-a-",
           "USBA-D+",
           "USBA-D-",
           "USBB-D+",
@@ -572,7 +570,7 @@
     ],
     [
       "607413c6-2bfd-476d-8323-587df958351b",
-      "SDCard"
+      "Memory"
     ],
     [
       "a4217064-b1a8-49a5-9086-5c3293a5a5a6",
