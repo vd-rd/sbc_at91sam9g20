@@ -334,9 +334,6 @@
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/4c7f4b09-c9ab-4848-820b-4a1d4a09b204"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/a8443059-c0aa-47df-ae19-b64742bffeb1"
-      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/726bbb06-26c6-45cf-a473-5d32b5918bec"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
@@ -386,7 +383,10 @@
       (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/64bfffe5-e496-4d37-925a-3c0e5fbf9499"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/734a2e1c-2720-493b-85a4-35f057e321cd"
+      (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/bf1dde6f-166f-4d00-921e-054d48f3afa1"
       (reference "C1") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -505,6 +505,9 @@
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/b0d9033a-bbb8-414d-89b4-7cc1e5dfd7af"
       (reference "C39") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/4b30a6c7-52d6-4a8f-bfbf-b61bfd99c38c"
+      (reference "C40") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/1882d0ac-6b64-4b6b-9e68-a7416f50e1de"
       (reference "C41") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -564,9 +567,6 @@
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/087306b1-d052-43da-bcad-bce44e6c71b8"
       (reference "C63") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/607413c6-2bfd-476d-8323-587df958351b/4b30a6c7-52d6-4a8f-bfbf-b61bfd99c38c"
-      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/1c25b6c1-7e92-4ec3-94f7-9eb9221466e3"
       (reference "D1") (unit 1) (value "LED_RGBA") (footprint "led:rgb-1204")
