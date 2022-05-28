@@ -740,7 +740,7 @@
       (reference "U3") (unit 1) (value "MT48LC16M16A2P") (footprint "jedec:TSOP-II-54_22.2x10.16mm_P0.8mm")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/862a73f3-01b3-4896-9f12-5df6cda1a8d5"
-      (reference "U4") (unit 1) (value "MCP16501") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias")
+      (reference "U4") (unit 1) (value "MCP16501A") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/e017f3f3-23bb-48f4-8b17-035d4add947f"
       (reference "U5") (unit 1) (value "AT25xxx-MA") (footprint "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm")

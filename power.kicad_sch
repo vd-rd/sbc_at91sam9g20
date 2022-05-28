@@ -3376,7 +3376,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 862a73f3-01b3-4896-9f12-5df6cda1a8d5)
     (property "Reference" "U4" (id 0) (at 112.395 55.88 0))
-    (property "Value" "MCP16501" (id 1) (at 112.395 58.42 0))
+    (property "Value" "MCP16501A" (id 1) (at 112.395 58.42 0))
     (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" (id 2) (at 110.49 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
