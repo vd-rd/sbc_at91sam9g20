@@ -3,12 +3,12 @@
    (layer outer)
    (constraint track_width (min 0.127mm) (opt 0.154mm))
    (constraint clearance (min 0.1016mm) (opt 0.154mm))
-   (condition "A.insideCourtyard('U2')"))
+   (condition "A.insideCourtyard('U200')"))
 (rule "SDRAM-module2 fanout"
    (layer outer)
    (constraint track_width (min 0.127mm) (opt 0.154mm))
    (constraint clearance (min 0.1016mm) (opt 0.154mm))
-   (condition "A.insideCourtyard('U3')"))
+   (condition "A.insideCourtyard('U201')"))
 (rule "CPU fanout"
    (layer outer)
    (constraint track_width (min 0.127mm) (opt 0.154mm))
