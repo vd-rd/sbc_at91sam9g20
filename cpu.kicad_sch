@@ -6645,7 +6645,7 @@
 	)
 	(global_label "DBG-RXD"
 		(shape input)
-		(at 106.68 73.66 180)
+		(at 95.25 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6655,7 +6655,7 @@
 		)
 		(uuid "11f4dcdf-1e8a-42d8-ad3c-4227482bced0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.135 73.5806 0)
+			(at 83.705 98.9806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7459,7 @@
 	)
 	(global_label "DBG-TXD"
 		(shape output)
-		(at 106.68 71.12 180)
+		(at 95.25 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7469,7 +7469,7 @@
 		)
 		(uuid "8fd3a748-0413-441b-9ac9-6545353bf0b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4374 71.0406 0)
+			(at 84.0074 96.4406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
