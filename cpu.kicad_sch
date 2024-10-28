@@ -6187,6 +6187,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 29.21) (xy 276.86 29.21)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f5d20c33-8432-4501-8404-bf2c1680b3ba")
+	)
+	(wire
+		(pts
 			(xy 181.61 139.7) (xy 162.56 139.7)
 		)
 		(stroke
@@ -6554,6 +6564,28 @@
 			(justify right bottom)
 		)
 		(uuid "ffd54e9c-10dd-4c51-a7b1-970c46e8b681")
+	)
+	(global_label "SPI-CLK"
+		(shape input)
+		(at 266.7 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0785ac99-4c6e-4779-9b95-c3ab8922c902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.3949 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GPIOA3"
 		(shape bidirectional)
@@ -8114,6 +8146,72 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 276.86 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33fa8a99-a485-45fd-8fdc-18ea4f0037cf")
+		(property "Reference" "TP7"
+			(at 271.584 28.3069 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 275.59 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 276.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65477d18-d164-4f5d-9bb2-de653ff6904c")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11417,7 +11515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 276.86 30.48 0)
 			(effects
 				(font
