@@ -6261,16 +6261,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 31.75) (xy 270.51 31.75)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2b2112c0-80a9-4c1d-8999-53dbbb4dc488")
-	)
-	(wire
-		(pts
 			(xy 231.14 71.12) (xy 231.14 76.2)
 		)
 		(stroke
@@ -7161,16 +7151,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 35.56) (xy 270.51 35.56)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f505a03a-c892-4f69-869b-8449d1b0a490")
-	)
-	(wire
-		(pts
 			(xy 123.19 134.62) (xy 133.35 134.62)
 		)
 		(stroke
@@ -7394,28 +7374,6 @@
 		(uuid "303344bc-b9b6-4564-b04e-204eb329241f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.4564 86.4394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD-MEM"
-		(shape input)
-		(at 260.35 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3570a53a-135d-4719-babe-285b70b73a0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0169 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,28 +7643,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+1V0_LDO"
-		(shape input)
-		(at 260.35 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b3917c02-5189-430c-be35-e8d430a784ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0702 31.6706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8058,7 +7994,7 @@
 				)
 			)
 		)
-		(property "Value" "BSS84"
+		(property "Value" "DMP2165"
 			(at 46.99 151.13 90)
 			(effects
 				(font
@@ -8179,142 +8115,6 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 49.53 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d0d4cb3-c3b9-4ed3-8780-63cc2d746b7f")
-		(property "Reference" "C32"
-			(at 53.34 34.6709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 53.34 37.2109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 50.4952 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37781276-3aea-4635-9327-061eea3cc6ad")
-		)
-		(pin "2"
-			(uuid "59c3519a-1948-4f32-85ad-84beb8377b0d")
-		)
-		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "114d0d2f-affa-490d-ab40-db3c1d0cb9b8")
-		(property "Reference" "TP6"
-			(at 265.234 34.6569 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 269.24 37.4649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 270.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0e98e08-b0f8-43e8-954b-991ffad7535d")
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8473,7 +8273,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "NSR0530"
 			(at 53.34 137.16 0)
 			(effects
 				(font
@@ -9583,72 +9383,6 @@
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
 					(reference "U100")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29059062-6467-4747-87fa-363579548659")
-		(property "Reference" "TP5"
-			(at 265.234 30.8469 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 269.24 33.6549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 270.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ae1b14a-2362-403f-a57c-d1a84ed461c9")
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
-					(reference "TP5")
-					(unit 1)
 				)
 			)
 		)
@@ -12145,76 +11879,6 @@
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 180.34 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eacf403e-b1ae-4c9d-8536-7791dd679746")
-		(property "Reference" "C66"
-			(at 182.88 76.2062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 182.88 78.7462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "770d9134-cbcc-4490-ad4e-11fa59c2b4e4")
-		)
-		(pin "2"
-			(uuid "3d34f114-a88d-49fd-a772-5abdfc5c7bd8")
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
-					(reference "C66")
 					(unit 1)
 				)
 			)

@@ -502,250 +502,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_EEPROM:AT25xxx-MA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AT25xxx-MA"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Microchip SPI Serial EEPROM, DFN8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "EEPROM memory SPI serial"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DFN*3x2mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AT25xxx-MA_1_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{WP}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{HOLD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "gct:Micro_SD_Card_Det"
 			(pin_names
 				(offset 1.016)
@@ -1256,12 +1012,6 @@
 		(uuid "18cfc8f1-4ecf-4076-bca3-32b667c93df2")
 	)
 	(junction
-		(at 189.23 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "425a5aa5-cc43-4769-9858-75d1b5109792")
-	)
-	(junction
 		(at 212.09 66.04)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -1291,16 +1041,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 125.73) (xy 224.79 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba0f04d-c75e-4cdf-97e1-4b6eb899adb5")
-	)
-	(wire
-		(pts
 			(xy 165.1 48.26) (xy 214.63 48.26)
 		)
 		(stroke
@@ -1308,16 +1048,6 @@
 			(type solid)
 		)
 		(uuid "0f1a1541-0e9c-4a0d-aabc-2a752936b26d")
-	)
-	(wire
-		(pts
-			(xy 189.23 115.57) (xy 208.28 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1029e91a-9fe7-4844-9f0f-3de2ec927b9d")
 	)
 	(wire
 		(pts
@@ -1371,26 +1101,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 115.57) (xy 189.23 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38921b03-df8c-43c4-9efe-0bbe44523455")
-	)
-	(wire
-		(pts
-			(xy 184.15 130.81) (xy 198.12 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d80ce30-d272-430b-9dff-d165f17a2c10")
-	)
-	(wire
-		(pts
 			(xy 80.01 111.76) (xy 111.76 111.76)
 		)
 		(stroke
@@ -1398,16 +1108,6 @@
 			(type default)
 		)
 		(uuid "5266877c-3f1b-4569-81ef-3785e820f8b8")
-	)
-	(wire
-		(pts
-			(xy 218.44 128.27) (xy 224.79 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f0bc52-3591-484b-b9bc-e735b43b9066")
 	)
 	(wire
 		(pts
@@ -1438,16 +1138,6 @@
 			(type solid)
 		)
 		(uuid "914257ab-eea8-4205-9674-191dddd90cfc")
-	)
-	(wire
-		(pts
-			(xy 218.44 130.81) (xy 224.79 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0159605-7ad5-4637-8e64-815941de8c99")
 	)
 	(wire
 		(pts
@@ -1639,16 +1329,6 @@
 		)
 		(uuid "fd494cc6-664e-4c7d-b74f-5af5e9500af6")
 	)
-	(wire
-		(pts
-			(xy 208.28 120.65) (xy 208.28 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7b69f0-2569-406a-8bb2-8bd82c7e6b07")
-	)
 	(global_label "SDIO0-DAT1"
 		(shape bidirectional)
 		(at 165.1 60.96 180)
@@ -1693,28 +1373,6 @@
 			)
 		)
 	)
-	(global_label "VDD-IO"
-		(shape input)
-		(at 180.34 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1976656e-3886-40eb-98a2-54ebd451e4e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.7907 115.4906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDIO0-DAT2"
 		(shape bidirectional)
 		(at 165.1 43.18 180)
@@ -1737,28 +1395,6 @@
 			)
 		)
 	)
-	(global_label "SPI-MOSI"
-		(shape output)
-		(at 224.79 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6621f0b8-91d8-4c3d-a875-5e18ba1067d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.456 128.1906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VDD-IO"
 		(shape input)
 		(at 80.01 111.76 180)
@@ -1777,28 +1413,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-CLK"
-		(shape output)
-		(at 224.79 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ac702c5-0dfd-4819-840a-be05e762691a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.4279 125.6506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1935,28 +1549,6 @@
 			)
 		)
 	)
-	(global_label "SF-CS"
-		(shape bidirectional)
-		(at 184.15 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac19bb1e-983a-4c1b-ba64-4028713ec8fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1964 130.8894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI-MISO"
 		(shape input)
 		(at 128.27 128.27 0)
@@ -2014,28 +1606,6 @@
 		(uuid "d83e41fb-f47a-422e-a8be-bd1caf0d5f91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.936 125.6506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-MISO"
-		(shape input)
-		(at 224.79 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5dfa51a-384d-4429-845e-113b0923e2af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.456 130.8894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,76 +1791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 189.23 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b30a6c7-52d6-4a8f-bfbf-b61bfd99c38c")
-		(property "Reference" "C40"
-			(at 191.5542 117.3491 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 191.5542 119.6478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 189.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d12680f5-02fc-4324-991a-974d83ef1659")
-		)
-		(pin "2"
-			(uuid "dcfd846b-4ac6-44d0-995f-4c7f9199196b")
-		)
-		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 207.01 69.85 0)
 		(unit 1)
@@ -2350,71 +1850,6 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64bfffe5-e496-4d37-925a-3c0e5fbf9499")
-		(property "Reference" "#PWR0142"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6085b81-a3db-4b60-b74b-1fbea0567f5e")
-		)
-		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -2875,162 +2310,6 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_EEPROM:AT25xxx-MA")
-		(at 208.28 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e017f3f3-23bb-48f4-8b17-035d4add947f")
-		(property "Reference" "U5"
-			(at 210.2994 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AT25xxx-MA"
-			(at 210.2994 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm"
-			(at 208.28 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf"
-			(at 208.28 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f25ef1a3-5583-41cd-b823-48c2ce82d924")
-		)
-		(pin "2"
-			(uuid "f17463d3-6f9c-46fd-9a87-59654cd82b6c")
-		)
-		(pin "3"
-			(uuid "0046c7e9-9a97-4eac-913b-936e46d295cd")
-		)
-		(pin "4"
-			(uuid "8a8625e9-1cbe-4bc0-8b32-865cf47ed175")
-		)
-		(pin "5"
-			(uuid "d0cb1d32-b855-4ee4-96c4-de9363e5b0a1")
-		)
-		(pin "6"
-			(uuid "b7cac37e-a971-4b1e-a070-2f82a2c87ad7")
-		)
-		(pin "7"
-			(uuid "18ae7995-de03-4f02-89a5-99efbd7b1519")
-		)
-		(pin "8"
-			(uuid "edc18881-45af-4171-9207-81160724a0bc")
-		)
-		(pin "9"
-			(uuid "1ef69e81-2339-4337-b912-4eb4e53143bc")
-		)
-		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efbecaf1-9de0-45a2-9dcf-5307273a81d2")
-		(property "Reference" "#PWR0131"
-			(at 208.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 137.6744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa57c340-34a8-4190-bba6-2b13597a10ad")
-		)
-		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
-					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
