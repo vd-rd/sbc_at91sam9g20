@@ -1006,10 +1006,10 @@
 		)
 	)
 	(junction
-		(at 99.06 111.76)
+		(at 83.82 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "043ca3d5-f7fb-43a5-b9b3-4b08568f400b")
+		(uuid "029575bf-63ef-4469-8d85-c355e0eebbd9")
 	)
 	(junction
 		(at 189.23 76.2)
@@ -1018,16 +1018,16 @@
 		(uuid "18cfc8f1-4ecf-4076-bca3-32b667c93df2")
 	)
 	(junction
+		(at 99.06 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f6bbd9-06f1-48e6-9a95-191cde0c9882")
+	)
+	(junction
 		(at 181.61 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f75ae5b-33dc-4e74-b5a8-c16e35a8f1de")
-	)
-	(junction
-		(at 99.06 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57b437cb-3ea0-4870-9e3f-d1b8dc639130")
 	)
 	(junction
 		(at 196.85 27.94)
@@ -1101,6 +1101,12 @@
 		(color 0 0 0 0)
 		(uuid "e049bb1f-078e-435e-9b28-6af4a248fe4d")
 	)
+	(junction
+		(at 99.06 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9b23528-925d-4880-9661-bbeb378ca678")
+	)
 	(wire
 		(pts
 			(xy 187.96 50.8) (xy 214.63 50.8)
@@ -1120,6 +1126,16 @@
 			(type solid)
 		)
 		(uuid "08ca1206-31b4-4f57-a552-b8f9aae834b7")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7feea2-8062-4c86-ad39-93bacdfd204b")
 	)
 	(wire
 		(pts
@@ -1243,6 +1259,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0afbcd-bcfe-4bdc-a4cc-66a5bcc3f05f")
+	)
+	(wire
+		(pts
 			(xy 201.93 30.48) (xy 201.93 27.94)
 		)
 		(stroke
@@ -1293,17 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 99.06 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5180ce8d-1614-4008-9395-6480e98efc5d")
-	)
-	(wire
-		(pts
-			(xy 80.01 111.76) (xy 99.06 111.76)
+			(xy 80.01 111.76) (xy 83.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1413,6 +1429,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 116.84) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd43164-0ad9-457a-9527-4efcea17f0e5")
+	)
+	(wire
+		(pts
+			(xy 99.06 119.38) (xy 99.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f372364-1904-4bb2-9a50-9e17456a1293")
+	)
+	(wire
+		(pts
 			(xy 186.69 48.26) (xy 214.63 48.26)
 		)
 		(stroke
@@ -1443,13 +1479,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 111.76 111.76)
+			(xy 83.82 111.76) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae2aa438-cdcc-428e-907d-b2ea8d72a09d")
+		(uuid "ad173fc1-e9e5-4f22-a33a-a86dd7b581e5")
 	)
 	(wire
 		(pts
@@ -2028,6 +2064,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12225f04-c657-4a76-956f-c46a0093751c")
+		(property "Reference" "R29"
+			(at 96.52 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~{}"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32cf68df-47f5-4153-ba72-c20b5ab43059")
+		)
+		(pin "2"
+			(uuid "c96f7a33-0eec-4d97-9be9-aac4c2a62c4e")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 68.58 0)
 		(unit 1)
@@ -2218,6 +2323,76 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5228cc71-e054-4bf3-8825-0f7c2f376a0d")
+		(property "Reference" "C31"
+			(at 86.1442 113.5391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 86.1442 115.8378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a5a630-cbfb-46d9-b978-1e35c7446607")
+		)
+		(pin "2"
+			(uuid "1c0e6216-cea0-44b5-8c3a-cdd29d6231f1")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2579,6 +2754,71 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab118cb6-34e3-4e33-9923-9cd76f0412b5")
+		(property "Reference" "#PWR07"
+			(at 83.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85f7ea22-6d74-41e8-9356-28cd9fbd03c5")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
