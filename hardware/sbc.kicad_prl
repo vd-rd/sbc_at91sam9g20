@@ -9,8 +9,7 @@
       "sdram-data-g0",
       "sdram-data-g1",
       "sdram-data-g2",
-      "sdram-data-g3",
-      "usb-diff"
+      "sdram-data-g3"
     ],
     "hidden_nets": [
       "ad16",
@@ -19,12 +18,6 @@
       "ad6",
       "ad3",
       "ad2",
-      "USBA-D-",
-      "USBA-D+",
-      "USBC-D-",
-      "USBC-D+",
-      "USBB-D-",
-      "USBB-D+",
       "/SDRAM/sdcs",
       "ad13",
       "ad11",
@@ -79,7 +72,7 @@
       "ad12",
       "ad15"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -127,6 +120,7 @@
     "zone_display_mode": 1
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -165,18 +159,18 @@
       11
     ],
     "col_widths": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      31
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
