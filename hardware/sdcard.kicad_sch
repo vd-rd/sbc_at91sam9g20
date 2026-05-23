@@ -1168,12 +1168,6 @@
 		(uuid "d9ba767d-71d7-4591-97cd-119f89c4c077")
 	)
 	(junction
-		(at 184.15 71.12)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "dd37120c-8a12-4be8-83c5-2b375fb69908")
-	)
-	(junction
 		(at 186.69 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1597,17 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 71.12) (xy 184.15 71.12)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "b6afefc8-2185-4d95-b2f2-8529ebe661ac")
-	)
-	(wire
-		(pts
-			(xy 184.15 71.12) (xy 193.04 71.12)
+			(xy 176.53 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2669,88 +2653,6 @@
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 184.15 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "745a7554-af4b-4dcc-9126-53f980302102")
-		(property "Reference" "C15"
-			(at 186.4742 72.8991 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 186.4742 75.1978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 184.15 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc67fb2a-f0be-428d-bd05-c252ef663d5e")
-		)
-		(pin "2"
-			(uuid "060c592d-abde-4fee-bf38-76847501e730")
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
-					(reference "C15")
 					(unit 1)
 				)
 			)

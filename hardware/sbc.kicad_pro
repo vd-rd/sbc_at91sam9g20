@@ -292,7 +292,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1179,7 +1179,7 @@
       {
         "filename": "sbc.kicad_sch",
         "name": "sbc",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "323e64ed-5f81-410d-9081-fb4424f9b116"
       }
     ],
     "used_designators": "",
@@ -1188,7 +1188,7 @@
   "sheets": [
     [
       "323e64ed-5f81-410d-9081-fb4424f9b116",
-      "Root"
+      "sbc"
     ],
     [
       "b6230b33-e760-4c12-ae5c-51d672e495dd",
@@ -1211,7 +1211,9 @@
       "SDRAM"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BOARD_REV": "2.0"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
