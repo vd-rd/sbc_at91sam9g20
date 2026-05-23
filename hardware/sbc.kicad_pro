@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 0.8,
-          "width": 1.0
+          "drill": 0.55,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -51,7 +51,23 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.14
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.15,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -276,7 +292,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1163,7 +1179,7 @@
       {
         "filename": "sbc.kicad_sch",
         "name": "sbc",
-        "uuid": "323e64ed-5f81-410d-9081-fb4424f9b116"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "used_designators": "",
@@ -1172,7 +1188,7 @@
   "sheets": [
     [
       "323e64ed-5f81-410d-9081-fb4424f9b116",
-      "sbc"
+      "Root"
     ],
     [
       "b6230b33-e760-4c12-ae5c-51d672e495dd",
