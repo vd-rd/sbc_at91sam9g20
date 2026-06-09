@@ -2570,7 +2570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7365f37b-bcb7-4747-8ec2-185f5fe0e73b")
-		(property "Reference" "U1"
+		(property "Reference" "U110"
 			(at 113.7794 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2652,7 +2652,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/607413c6-2bfd-476d-8323-587df958351b"
-					(reference "U1")
+					(reference "U110")
 					(unit 1)
 				)
 			)

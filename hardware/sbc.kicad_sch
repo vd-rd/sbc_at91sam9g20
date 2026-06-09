@@ -1647,7 +1647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352e4841-c1be-44f1-a9cf-f07836dd72a9")
-		(property "Reference" "U5"
+		(property "Reference" "U500"
 			(at 238.125 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +1721,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
-					(reference "U5")
+					(reference "U500")
 					(unit 1)
 				)
 			)

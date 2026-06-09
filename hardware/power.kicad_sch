@@ -11400,7 +11400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0ff502-8cca-469b-9bbf-65a12c6929c4")
-		(property "Reference" "U7"
+		(property "Reference" "U401"
 			(at 76.2 73.5898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +11472,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
-					(reference "U7")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -11895,7 +11895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862a73f3-01b3-4896-9f12-5df6cda1a8d5")
-		(property "Reference" "U4"
+		(property "Reference" "U400"
 			(at 112.395 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12026,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
-					(reference "U4")
+					(reference "U400")
 					(unit 1)
 				)
 			)

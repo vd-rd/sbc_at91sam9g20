@@ -53,17 +53,17 @@
           "45_degree_only": false,
           "border_display_style": 2,
           "border_hatch_pitch": 0.508,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 1,
+          "corner_radius": 0.4,
+          "corner_smoothing": 2,
+          "fill_mode": 0,
           "hatch_gap": 0.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 2,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 0.5,
-          "min_clearance": 0.4,
-          "min_island_area": 10.0,
-          "min_thickness": 0.4,
+          "min_clearance": 0.3,
+          "min_island_area": 0.0013161349,
+          "min_thickness": 0.16,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.508,
@@ -84,6 +84,22 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|106180000|67325000|2a49f77c-d095-462d-9096-bf5552fee904|bd11341f-0c5f-402d-a67c-59eb317822c1",
+          ""
+        ],
+        [
+          "clearance|106180000|69675000|98e19c39-6080-4548-b367-9bc444b647e7|f0f701a2-0792-4744-9133-127c259ddee6",
+          ""
+        ],
+        [
+          "clearance|107512500|62900000|43ae9b6a-e251-46c1-925c-6b06adaa63b3|a8a25569-a785-498d-a81a-8bb08eb07eaf",
+          ""
+        ],
+        [
+          "clearance|121529999|95230000|0c58bdb7-c9de-427a-bada-66aa6c89ad28|f3e74cce-5495-4fd2-958d-25438e08f8ba",
+          ""
+        ],
+        [
           "clearance|123600000|83000000|1a608fdd-26ba-445e-9cf3-6b63984ec1b2|1ec7f1c5-c79e-493b-ac8d-8f5cc33611ec",
           ""
         ],
@@ -100,6 +116,10 @@
           ""
         ],
         [
+          "hole_clearance|136000000|82700000|da1095f8-aed8-4c43-9d2b-cb65e823c5e3|793b5cba-c239-4883-9e56-5c74c9fb1d9d",
+          ""
+        ],
+        [
           "hole_clearance|136400000|78300000|77be0985-8acc-4c4e-bae3-a9441487b95e|19df313e-d259-4fd1-97ec-a1058a4bf679",
           ""
         ],
@@ -109,10 +129,6 @@
         ],
         [
           "hole_clearance|137200000|72700000|75d5591b-d9c0-4f1b-9430-9cddafc410b8|9d690195-491d-48a9-8845-91c4564a023a",
-          ""
-        ],
-        [
-          "hole_clearance|137200000|73500000|c5e676f9-6d27-4eb4-b884-0f7e2fd3db59|1c75f75d-32e4-4956-b683-81f5cd2ca179",
           ""
         ],
         [
@@ -141,10 +157,6 @@
         ],
         [
           "hole_clearance|137200000|82300000|47901abb-585c-40a4-a3ac-1efc80e69a64|90f62ab4-3b57-4e43-92c1-505510d0ded2",
-          ""
-        ],
-        [
-          "hole_clearance|137600000|72300000|9a63dd22-b460-43a9-9082-9c298f56778d|9d690195-491d-48a9-8845-91c4564a023a",
           ""
         ],
         [
@@ -235,7 +247,7 @@
         "max_error": 0.005,
         "min_clearance": 0.12,
         "min_connection": 0.1,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.35,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.4,

@@ -8126,7 +8126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "428569ac-b398-4772-a4ad-ee1e72e9a882")
-		(property "Reference" "U6"
+		(property "Reference" "U101"
 			(at 233.68 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,7 +8200,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
-					(reference "U6")
+					(reference "U101")
 					(unit 1)
 				)
 			)

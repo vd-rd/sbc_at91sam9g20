@@ -10769,7 +10769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ae72713-1567-4342-b0c1-42861bf9ae9e")
-		(property "Reference" "U2"
+		(property "Reference" "U200"
 			(at 246.38 66.8994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10988,7 +10988,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/a4217064-b1a8-49a5-9086-5c3293a5a5a6"
-					(reference "U2")
+					(reference "U200")
 					(unit 1)
 				)
 			)
@@ -12132,7 +12132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e4d9338-7b20-4eaf-9c16-4c17e3b0d704")
-		(property "Reference" "U3"
+		(property "Reference" "U300"
 			(at 166.37 69.4394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +12351,7 @@
 		(instances
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/a4217064-b1a8-49a5-9086-5c3293a5a5a6"
-					(reference "U3")
+					(reference "U300")
 					(unit 1)
 				)
 			)
